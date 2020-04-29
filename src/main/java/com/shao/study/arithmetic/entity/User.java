@@ -2,6 +2,8 @@ package com.shao.study.arithmetic.entity;
 
 import com.shao.study.arithmetic.example.StingSolution;
 
+import java.util.Date;
+
 /**
  * @ClassName User
  * @Description TOO
@@ -15,6 +17,8 @@ public class User {
     String username;
     String password;
     int age;
+    Date birthday;
+    String selfintroduce;
 
     @Override
     /**
