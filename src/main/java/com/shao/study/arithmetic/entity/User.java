@@ -1,5 +1,7 @@
 package com.shao.study.arithmetic.entity;
 
+import com.shao.study.arithmetic.example.StingSolution;
+
 /**
  * @ClassName User
  * @Description TOO
@@ -12,6 +14,7 @@ public class User {
     String id;
     String username;
     String password;
+    int age;
 
     @Override
     /**
